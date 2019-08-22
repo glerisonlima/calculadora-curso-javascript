@@ -52,6 +52,10 @@ class CalcController {
         this._operator = [result, last]
     }
 
+    setLastNumberToDisplay(){
+        
+    }
+
     addOperation(value){
         if(isNaN(this.getLastOperation())){
             if(this.isOperator(value)){
